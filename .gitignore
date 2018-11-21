@@ -1,3 +1,17 @@
+# configurações de ide's
+.idea/
+.vscode/
+nbproject/
+
+# diretórios gerados após deploy e logs de erros
+standalone/configuration/standalone_xml_history/
+standalone/data/
+standalone/log/
+
+# instalação de dependências para o keycloak
+vendor/
+
+# comments
 jboss/server/all/deploy/project.ext
 jboss/server/default/deploy/project.ext
 jboss/server/minimal/deploy/project.ext
@@ -15,5 +29,4 @@ jboss/server/minimal/data/**/*
 jboss/server/minimal/work/**/*
 
 # deployed package files #
-
 *.DEPLOYED
