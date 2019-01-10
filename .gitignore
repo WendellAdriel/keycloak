@@ -10,6 +10,7 @@ standalone/configuration/standalone_xml_history/
 standalone/configuration/*.keystore
 standalone/data/
 standalone/log/
+standalone/tmp/
 
 # instalação de dependências para o keycloak
 vendor/
