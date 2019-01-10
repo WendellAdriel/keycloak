@@ -4,7 +4,9 @@
 nbproject/
 
 # diretórios gerados após deploy e logs de erros
+standalone/configuration/application.keystore
 standalone/configuration/standalone_xml_history/
+standalone/configuration/*.keystore
 standalone/data/
 standalone/log/
 
