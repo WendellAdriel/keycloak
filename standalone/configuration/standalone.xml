@@ -132,7 +132,7 @@
 
                 <datasource jndi-name="java:jboss/datasources/KeycloakDS" pool-name="KeycloakDS" enabled="true" use-java-context="true">
                     <connection-url>jdbc:mysql://localhost:3306/db_keycloak_test</connection-url>
-                    <driver>postgresql</driver>
+                    <driver>mysql</driver>
                     <pool>
                         <max-pool-size>20</max-pool-size>
                     </pool>
